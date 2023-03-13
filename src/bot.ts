@@ -1321,7 +1321,7 @@ export class TreasureMapBot {
     }
 
     async checkVersion() {
-        logger.info("Checking version...");
+   /*     logger.info("Checking version...");
         const currentVersion = await got
             .get(
                 "http://bombcrypto.lucasvieceli.com.br:8181/version?date=" +
@@ -1353,5 +1353,5 @@ export class TreasureMapBot {
         } else {
             await this.notification.unsetUpdateVersion();
         }
-    }
+   */ }
 }
